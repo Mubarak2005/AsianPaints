@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+body.no-scroll {
+    overflow: hidden;
+}
+
+.asian-paints{
+    /* font-family: "Qanoar Personal Use"; */
+    font-weight:light;
+    background: linear-gradient(to right,#c5d86d, #d7263d , #f46036, #2e294e, #1b998b, #c5d86d); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200%;
+    background-clip: text;
+    animation: gradient-animation 10s linear infinite;
+}
+@keyframes gradient-animation {
+    to{
+        background-position: 200%;
+    }
+}
+
+.gradient-bg {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.844), rgba(0, 0, 0, 0) 100%);
+}
+.blur-class{
+  backdrop-filter: blur(10px);
+}
+
+/* .roller-img{
+    filter: drop-shadow(-10px -5px 7px #00000061);
+    transition: filter ease-out 2;
+}
+
+.shadow-class{
+    filter: drop-shadow(-5px 10px 7px #00000061);
+    transition: filter ease-out 2;
+} */

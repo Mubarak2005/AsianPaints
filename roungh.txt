@@ -1,0 +1,153 @@
+bg-[url(background3.png)] bg-cover bg-no-repeat bg-center
+
+
+  <div class="hero relative h-screen w-full overflow-hidden">
+                <!-- <div class="roller absolute top-32 hidden">
+                    <img class="roller-img w-[15rem] rotate-0" src="roller.png" alt="">
+                </div> -->
+                <div class="hero-text h-[90%] w-[100%] text-[8.4vw] md:text-[6vw] xl:text-[5vw] font-['Qanoar_Personal_Use'] flex flex-col justify-center items-start pt-20 relative z-[2]">
+                    <div class="line overflow-hidden"><h1 class="w-full cursor-default text-start ml-3 xl:ml-20">Your Home,</h1></div>
+                    <div class="line overflow-hidden"><h1 class="w-full cursor-default text-start ml-3 xl:ml-20">Your Touch, <span class="hidden md:inline">Customize</span></h1></div>
+                    <div class="line overflow-hidden"><h1 class="w-full cursor-default text-start ml-3 xl:ml-20 md:hidden">Customize</h1></div>
+                    <div class="line overflow-hidden"><h1 class="w-full cursor-default text-start ml-3 xl:ml-20">with <span class="asian-paints text-[#f96060]">Asian Paints</span>.</h1></div>
+                    <!-- <h1 class="text-[5vw]"></h1> -->
+                </div>
+                <div class="hero-img1 heroimg absolute top-0 md:top-10 -right-32 md:right-10 scale-[.6] md:scale-[.8] z-[1] overflow-hidden">
+                    <img class="w-full" src="https://www.asianpaints.com/content/dam/asian_paints/colours/room-shots/yellows-greens-colour-shade-asian-paints-9298.jpg" alt="">
+                </div>
+
+                <div class="hero-img2 heroimg absolute -bottom-10 md:-bottom-32 -left-40 md:-left-20 scale-[.5] z-[1]">
+                    <img class="" src="https://www.asianpaints.com/content/dam/asian_paints/wall-coverings/room-shots/wallpaper-room-shot-asian-paints-W1090Y54S75.jpg.transform/cc-width-720-height-540/image.jpg" alt="">
+                </div>
+
+            </div>
+
+        </div>
+
+
+        
+
+        <div class="page2 h-[150vh] w-full flex justify-center items-center mt-60 overflow-hidden">
+            <div class="world-of-paint h-screen w-full font-['Qanoar_Personal_Use'] flex flex-col gap-40 justify-center items-center relative">
+                <div class="world-text h-40 w-full flex flex-col gap-5">
+                    <h1 class="w-full text-[2.5vw] text-start pl-28 font-medium">Discover our world of paint and decor</h1>
+                    <h1 class="w-full text-[2vw] font-['Dosis'] text-start pl-28 font-medium">One stop solution for all you need to keep your living space intact.</h1>
+                </div>
+
+                <div class="paint-types h-[100vh] w-[100vw] rounded-2xl flex justify-center items-center">
+        
+                    <div class="back h-[85vh] w-[85vw]">
+                        <img class="h-full w-full object-cover" src="IMG_8270.JPG" alt="">
+                        <img class="h-full w-full object-cover" src="IMG_8253.JPG" alt="">
+                        <img class="h-full w-full object-cover" src="IMG_8255.JPG" alt="">
+                        <img class="h-full w-full object-cover" src="IMG_8268.JPG" alt="">
+                        <img class="h-full w-full object-cover" src="IMG_8267.jpg" alt="">
+            
+                    </div>
+                </div>
+                <div class="top h-[100vh] w-full pointer-events-none flex justify-center items-center absolute top-0 left-0">
+                    <div class="h-full w-full flex justify-center items-center">
+                        <div class="top2 h-[85vh] w-[85vw] absolute top-44">
+                            <div class="h-[23vh] w-full gradient-bg absolute -bottom-4"></div>
+                    
+                            <div class="elem h-[6vw] w-1/2 relative top-[60vh] left-10 overflow-hidden">
+                                <h1 class="text-[3vw] leading-[-.8] font-bold tracking-wider absolute top-[0%] left-0 text-white">Interior Paints</h1>
+                                <h1 class="text-[3vw] leading-[-.8] font-bold tracking-wider absolute top-[100%] left-0 text-white">Exterior Paints</h1>
+                                <h1 class="text-[3vw] leading-[-.8] font-bold tracking-wider absolute top-[100%] left-0 text-white">Wall Textures</h1>
+                                <h1 class="text-[3vw] leading-[-.8] font-bold tracking-wider absolute top-[100%] left-0 text-white">Wallpapers</h1>
+                                <h1 class="text-[3vw] leading-[-.8] font-bold tracking-wider absolute top-[100%] left-0 text-white">Wood Paints</h1>
+                            </div>
+            
+                            <div class="elem h-[2.5vw] w-[97%] relative top-[60vh] left-10 overflow-hidden">
+                                <h1 class="text-[1vw] leading-2 tracking-widest font-bold absolute top-[0%] left-0 text-[#fff]">Experience the Art of Living with Elegant Asian Interior Paints.</h1>
+                                <h1 class="text-[1vw] leading-2 tracking-wider font-bold absolute top-[100%] left-0 text-[#fff]">Enhance your outdoor spaces with our range of exterior paints.</h1>
+                                <h1 class="text-[1vw] leading-2 tracking-wider font-bold absolute top-[100%] left-0 text-[#fff]">Transform your interiors with special texture finishes.</h1>
+                                <h1 class="text-[1vw] leading-2 tracking-wider font-bold absolute top-[100%] left-0 text-[#fff]">Discover our extensive wallpaper collections.</h1>
+                                <h1 class="text-[1vw] leading-2 tracking-wider font-bold absolute top-[100%] left-0 text-[#fff]">Delve into our wood finishing options, offering a spectrum of finishes from Clear to Coloured.</h1>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="page3 h-screen w-full font-['Dosis'] flex justify-center items-center flex-col">
+            <h1 class="text-[3vw] font-semibold">Book Free Site Visit</h1>
+            <h2 class="text-[2.5vw]">Bid goodbye to your home painting hassles with our expert supervision</h2>
+            <button class="px-5 py-2 hidden lg:block font-semibold border-black border-[1px] rounded-full">Book an Appointment</button>
+        </div>
+
+        <div class="page4 h-[120vh] w-full flex flex-col justify-center items-center font-['Qanoar_Personal_Use']">
+            <div class="world-text h-40 w-full flex flex-col justify-center items-center gap-5 mt-40">
+                <h1 class="w-full text-[2.5vw] text-center font-medium">Explore our room makeover services</h1>
+                <h1 class="w-[80%] text-[2vw] font-['Dosis'] text-center font-medium">Get hassle-free project management and execution when it comes to building your dream home with a tailor-made service.</h1>
+            </div>
+            <div class="cards h-[80vh] w-[90vw] flex gap-10 justify-center items-center">
+                <div class="card w-[]">
+                    <p class="c-txt">Hover Me</p>
+                    <p class="c-txt2">Get home décor advice and book interior design services.</p>
+                </div>
+
+                <div class="card w-[]">
+                    <p class="c-txt">Hover Me</p>
+                    <p class="c-txt2">Get home décor advice and book interior design services.</p>
+                </div>
+
+                <div class="card w-[]">
+                    <p class="c-txt">Hover Me</p>
+                    <p class="c-txt2">Get home décor advice and book interior design services.</p>
+                </div>
+            </div>
+        </div> 
+
+
+         <div class="card relative w-[400px] h-[504px] bg-lightgray flex flex-col p-2.5 items-center justify-center text-2xl text-white rounded-2xl cursor-pointer transition-all duration-700 overflow-hidden bg-cover bg-[url('https://static.asianpaints.com/content/dam/apcolourcatalogue/splash-popup/mobile-home-decor-image.webp')]">
+                            <div class="card-upper absolute inset-0 bg-[#08808000] rounded-2xl transition-all duration-700"></div>
+                            <p class="z-10">Home Interior</p>
+                            <p class="hidden transition-opacity duration-500">Get home décor advice and book interior design services.</p>
+                        </div>
+                
+                        <div class="card relative w-[400px] h-[504px] bg-lightgray flex flex-col p-2.5 items-center justify-center text-2xl text-white rounded-2xl cursor-pointer transition-all duration-700 overflow-hidden bg-cover bg-[url('https://cdn.pixabay.com/photo/2023/09/11/03/44/bedroom-8246002_1280.jpg')]">
+                            <div class="card-upper absolute inset-0 bg-[#08808000] rounded-2xl transition-all duration-700"></div>
+                            <p class="z-10">Bedroom Interior</p>
+                            <p class="hidden transition-opacity duration-500">Get home décor advice and book interior design services.</p>
+                        </div>
+                
+                        <div class="card relative w-[400px] h-[504px] bg-lightgray flex flex-col p-2.5 items-center justify-center text-2xl text-white rounded-2xl cursor-pointer transition-all duration-700 overflow-hidden bg-cover bg-[url('https://img.freepik.com/free-photo/modern-kitchen-interior-design_23-2150771995.jpg')]">
+                            <div class="card-upper absolute inset-0 bg-[#08808000] rounded-2xl transition-all duration-700"></div>
+                            <p class="z-10">Kitchen Interior</p>
+                            <p class="hidden transition-opacity duration-500">Get home décor advice and book interior design services.</p>
+                        </div>
+                        document.querySelectorAll('.relative').forEach(card => {
+    card.addEventListener('mouseenter', () => {
+        card.querySelector('.card-upper').classList.add('backdrop-blur-md', 'bg-[#ffffff00]');
+        // card.querySelector('.card p:nth-child(3)').classList.add('visible');
+    });
+    card.addEventListener('mouseleave', () => {
+        card.querySelector('.card-upper').classList.remove('backdrop-blur-md', 'bg-[#ffffff00]');
+        card.querySelector('.card p:nth-child(3)').classList.remove('visible');
+    });
+});
+
+
+// Shery.imageEffect(".hero-img1 img",{
+//     style:3,
+//     config: {"uFrequencyX":{"value":13.74,"range":[0,100]},"uFrequencyY":{"value":6.87,"range":[0,100]},"uFrequencyZ":{"value":8.4,"range":[0,100]},"geoVertex":{"range":[1,64],"value":9.66},"zindex":{"value":"1","range":[-9999999,9999999]},"aspect":{"value":1.2017857687813895},"ignoreShapeAspect":{"value":true},"shapePosition":{"value":{"x":0,"y":0}},"shapeScale":{"value":{"x":0.5,"y":0.5}},"shapeEdgeSoftness":{"value":0,"range":[0,0.5]},"shapeRadius":{"value":0,"range":[0,2]},"currentScroll":{"value":0},"scrollLerp":{"value":0.07},"gooey":{"value":false},"infiniteGooey":{"value":false},"growSize":{"value":4,"range":[1,15]},"durationOut":{"value":1,"range":[0.1,5]},"durationIn":{"value":1.5,"range":[0.1,5]},"displaceAmount":{"value":0.5},"masker":{"value":true},"maskVal":{"value":1.05,"range":[1,5]},"scrollType":{"value":0},"noEffectGooey":{"value":true},"onMouse":{"value":1},"noise_speed":{"value":0.2,"range":[0,10]},"metaball":{"value":0.2,"range":[0,2]},"discard_threshold":{"value":0.5,"range":[0,1]},"antialias_threshold":{"value":0.002,"range":[0,0.1]},"noise_height":{"value":0.5,"range":[0,2]},"noise_scale":{"value":10,"range":[0,100]}},
+//     // debug:true
+// })
+
+// Shery.imageEffect(".hero-img2 img",{
+//     style: 4,
+//     config: {"uColor":{"value":false},"uSpeed":{"value":0.6,"range":[0.1,1],"rangep":[1,10]},"uAmplitude":{"value":1.5,"range":[0,5]},"uFrequency":{"value":3.5,"range":[0,10]},"geoVertex":{"range":[1,64],"value":9.66},"zindex":{"value":"1","range":[-9999999,9999999]},"aspect":{"value":1.2020033388981637},"ignoreShapeAspect":{"value":true},"shapePosition":{"value":{"x":0,"y":0}},"shapeScale":{"value":{"x":0.5,"y":0.5}},"shapeEdgeSoftness":{"value":0,"range":[0,0.5]},"shapeRadius":{"value":0,"range":[0,2]},"currentScroll":{"value":0},"scrollLerp":{"value":0.07},"gooey":{"value":false},"infiniteGooey":{"value":false},"growSize":{"value":4,"range":[1,15]},"durationOut":{"value":1,"range":[0.1,5]},"durationIn":{"value":1.5,"range":[0.1,5]},"displaceAmount":{"value":0.5},"masker":{"value":true},"maskVal":{"value":1.05,"range":[1,5]},"scrollType":{"value":0},"noEffectGooey":{"value":true},"onMouse":{"value":1},"noise_speed":{"value":0.2,"range":[0,10]},"metaball":{"value":0.2,"range":[0,2]},"discard_threshold":{"value":0.5,"range":[0,1]},"antialias_threshold":{"value":0.002,"range":[0,0.1]},"noise_height":{"value":0.5,"range":[0,2]},"noise_scale":{"value":10,"range":[0,100]},"uFrequencyX":{"value":13.74,"range":[0,100]},"uFrequencyY":{"value":6.87,"range":[0,100]},"uFrequencyZ":{"value":8.4,"range":[0,100]}},
+//     // debug:true
+// })
+
+// Shery.imageEffect(".back",{
+//     style:5,
+//     config: {"a":{"value":0.2,"range":[0,30]},"b":{"value":-0.95,"range":[-1,1]},"zindex":{"value":"1","range":[-9999999,9999999]},"aspect":{"value":1.2017857687813895},"ignoreShapeAspect":{"value":true},"shapePosition":{"value":{"x":0,"y":0}},"shapeScale":{"value":{"x":0.5,"y":0.5}},"shapeEdgeSoftness":{"value":0,"range":[0,0.5]},"shapeRadius":{"value":0,"range":[0,2]},"currentScroll":{"value":0},"scrollLerp":{"value":0.07},"gooey":{"value":true},"infiniteGooey":{"value":false},"growSize":{"value":3.24,"range":[1,15]},"durationOut":{"value":1,"range":[0.1,5]},"durationIn":{"value":1.5,"range":[0.1,5]},"displaceAmount":{"value":0.5},"masker":{"value":false},"maskVal":{"value":1,"range":[1,5]},"scrollType":{"value":0},"geoVertex":{"range":[1,64],"value":1},"noEffectGooey":{"value":false},"onMouse":{"value":1},"noise_speed":{"value":0.2,"range":[0,10]},"metaball":{"value":0.2,"range":[0,2]},"discard_threshold":{"value":0.5,"range":[0,1]},"antialias_threshold":{"value":0,"range":[0,0.1]},"noise_height":{"value":0.5,"range":[0,2]},"noise_scale":{"value":10,"range":[0,100]}},
+//     gooey:true,
+//     // debug:true
+// })
