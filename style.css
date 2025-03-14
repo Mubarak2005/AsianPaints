@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'Qanoar';
+    src: url('/Fonts/Qanoar.ttf') format('truetype'); 
+}
 
 ::-webkit-scrollbar {
     display: none;
@@ -10,12 +14,36 @@
 
 body.no-scroll {
     overflow: hidden;
+    /* color: #ffffff65; */
+}
+
+.nav-text:hover .txt2-h1{
+    transform: translateY(-100%);
+
+}
+.scroller{
+    animation: scroll 15s linear infinite;
+}
+
+.marquee{
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+}
+@keyframes scroll {
+    from{
+        transform: translateX(70%);
+    }to{
+        transform: translateX(-100%);
+    }
+}
+.marquee span:hover{
+    color: #fff;
 }
 
 .asian-paints{
     /* font-family: "Qanoar Personal Use"; */
     font-weight:light;
-    background: linear-gradient(to right,#c5d86d, #d7263d , #f46036, #2e294e, #1b998b, #c5d86d); 
+    background: linear-gradient(to right, #d7263d , #f46036, #2e294e, #1b998b, #d7263d); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 200%;
@@ -27,20 +55,76 @@ body.no-scroll {
         background-position: 200%;
     }
 }
+.page5-mobile::-webkit-scrollbar{
+    display: none;
+}
 
 .gradient-bg {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.844), rgba(0, 0, 0, 0) 100%);
 }
-.blur-class{
-  backdrop-filter: blur(10px);
+
+body{
+    transition: all ease-out 1s;
 }
 
-/* .roller-img{
-    filter: drop-shadow(-10px -5px 7px #00000061);
-    transition: filter ease-out 2;
+.gradient1 {
+    background: linear-gradient(to bottom right, #dce4fc, #e3d1fd, #f4dff2);
 }
 
-.shadow-class{
-    filter: drop-shadow(-5px 10px 7px #00000061);
-    transition: filter ease-out 2;
-} */
+.gradient2 {
+    background: linear-gradient(to bottom right, #dce4fc, #fff8ee, #d5f0f8);
+}
+
+.gradient3 {
+    background: linear-gradient(to bottom right, #dce4fc, #D0D1CC, #f6e8d4);
+}
+.gradient4 {
+    background: linear-gradient(to bottom right, #dce4fc, #D0D4C6, #d4ebef);
+}
+.gradient5 {
+    background: linear-gradient(to bottom right, #dce4fc, #c5c4c5, #ffe8cd);
+}
+
+
+.cards-container {
+    overflow: hidden;
+    display: flex;
+    gap: 10px;
+}
+
+.card {
+    flex: 1 1 0;
+    transition: flex-grow .5s linear;
+    min-width: 10%;
+}
+
+.card:hover {
+    flex-grow: 2;
+}
+
+.description {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.card:hover .description {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+
+.page9-imgs{
+    animation: scroll 15s linear infinite;
+}
+
+.marquee{
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+}
+@keyframes scroll {
+    from{
+        transform: translateX(0%);
+    }to{
+        transform: translateX(-100%);
+    }
+}
