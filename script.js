@@ -357,7 +357,6 @@ function page4Animation(){
             if(!animating){
                 document.body.classList.remove(gradientColors[index-1])
                 document.body.classList.add(gradientColors[index])
-                console.log(gradientColors[index]);
                 animating = true;
                 gsap.to(h1s[index],{
                     top:"-=100%",
