@@ -2,7 +2,11 @@
 module.exports = {
   content: ["*"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Qanoar: ['Qanoar', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
